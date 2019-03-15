@@ -40,6 +40,12 @@ theme = "hugo-theme-minos"
 
 ## Options
 
+### Author
+```
+[Author]
+  name = "Joe Bloggs"
+```
+
 ### Pagination
 ```
 paginate = 10
