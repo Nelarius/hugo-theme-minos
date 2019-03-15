@@ -76,6 +76,19 @@ disqusShortname = "xxxxxx"
 
 This option enables the KaTeX auto-render extension. To render block math, use `$$ ... $$`. For inline math, use `\\( ... \\)`. For more details, please refer to https://github.com/KaTeX/KaTeX/blob/v0.7.1/contrib/auto-render/auto-render.js#L73 .
 
+### Social media icons
+```
+[params]
+  bitbucket = ""
+  facebook = ""
+  gitlab = ""
+  github = "" # optional username
+  googleplus = ""
+  instagram = ""
+  linkedin = ""
+  twitter = ""
+```
+
 ### Others
 
 For other configuration variables, visit [Hugo documentation](https://gohugo.io/overview/configuration/#configuration-variables).

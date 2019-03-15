@@ -1,0 +1,26 @@
+<section class="footer-social">
+      {{ with .Site.Params.twitter }}
+      <a href="//twitter.com/{{ . }}" target="_blank" title="Twitter"><i class="fab fa-2x fa-fw fa-twitter"></i></a>&nbsp;
+      {{ end }}
+      {{ with .Site.Params.linkedin }}
+      <a href="//www.linkedin.com/in/{{ . }}" target="_blank" title="linkedIn"><i class="fab fa-2x fa-fw fa-linkedin"></i></a>&nbsp;
+      {{ end }}
+      {{ with .Site.Params.googleplus }}
+      <a href="//plus.google.com/{{ . }}" target="_blank" title="Google+"><i class="fab fa-2x fa-fw fa-google-plus"></i></a>&nbsp;
+      {{ end }}
+      {{ with .Site.Params.facebook }}
+      <a href="//www.facebook.com/{{ . }}" target="_blank" title="Facebook"><i class="fab fa-2x fa-fw fa-facebook"></i></a>&nbsp;
+      {{ end }}
+      {{ with .Site.Params.instagram }}
+      <a href="//www.instagram.com/{{ . }}" target="_blank" title="Instagram"><i class="fab fa-2x fa-fw fa-instagram"></i> </a>&nbsp;
+      {{ end }}
+      {{ with .Site.Params.github }}
+      <a href="//github.com/{{ . }}" target="_blank" title="GitHub"><i class="fab fa-2x fa-fw fa-github"></i></a>&nbsp;
+      {{ end }}
+      {{ with .Site.Params.gitlab }}
+      <a href="//gitlab.com/u/{{ . }}" target="_blank" title="GitLab"><i class="fab fa-2x fa-fw fa-gitlab"></i></a>&nbsp;
+      {{ end }}
+      {{ with .Site.Params.bitbucket }}
+      <a href="//bitbucket.org/{{ . }}" target="_blank" title="Bitbucket"><i class="fab fa-2x fa-fw fa-bitbucket"></i></a>&nbsp;
+      {{ end }}
+</section>
